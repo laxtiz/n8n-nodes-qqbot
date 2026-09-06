@@ -1,2 +1,5 @@
 dist
 node_modules
+
+# ZCode session files
+.zcode/
