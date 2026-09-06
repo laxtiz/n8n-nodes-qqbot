@@ -1,6 +1,6 @@
 {
     "name": "n8n-nodes-qqbot",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "QQ Bot integration for n8n: receive bot events via webhook and call the QQ Bot OpenAPI",
     "license": "MIT",
     "homepage": "https://github.com/laxtiz/n8n-nodes-qqbot",
@@ -15,15 +15,15 @@
         "type": "git",
         "url": "https://github.com/laxtiz/n8n-nodes-qqbot.git"
     },
-   "scripts": {
-		"build": "n8n-node build",
-		"build:watch": "tsc --watch",
-		"dev": "n8n-node dev",
-		"lint": "n8n-node lint",
-		"lint:fix": "n8n-node lint --fix",
-		"release": "n8n-node release",
-		"prepublishOnly": "n8n-node prerelease"
-	},
+    "scripts": {
+        "build": "n8n-node build",
+        "build:watch": "tsc --watch",
+        "dev": "n8n-node dev",
+        "lint": "n8n-node lint",
+        "lint:fix": "n8n-node lint --fix",
+        "release": "n8n-node release",
+        "prepublishOnly": "n8n-node prerelease"
+    },
     "files": [
         "dist"
     ],
