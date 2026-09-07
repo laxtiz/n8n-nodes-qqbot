@@ -27,6 +27,10 @@
     "files": [
         "dist"
     ],
+    "publishConfig": {
+      "provenance": true,
+      "access": "public"
+    },
     "n8n": {
         "n8nNodesApiVersion": 1,
         "strict": true,
