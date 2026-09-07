@@ -1,6 +1,6 @@
 {
     "name": "n8n-nodes-qqbot",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "QQ Bot integration for n8n: receive bot events via webhook and call the QQ Bot OpenAPI",
     "license": "MIT",
     "homepage": "https://github.com/laxtiz/n8n-nodes-qqbot",
@@ -28,8 +28,8 @@
         "dist"
     ],
     "publishConfig": {
-      "provenance": true,
-      "access": "public"
+        "provenance": true,
+        "access": "public"
     },
     "n8n": {
         "n8nNodesApiVersion": 1,
